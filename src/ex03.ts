@@ -7,7 +7,7 @@ interface Car {
   color?: string
 }
 
-const describeCar = (car: Car) => {
+const describeCar = (car: Car): void => {
   console.log(`Model: ${car.model}`);
   if (car.color) {
     console.log(`Color: ${car.color}`);
